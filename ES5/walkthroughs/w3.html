@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>hoisting.html</title>
+</head>
+<body>
+
+<h1> ES5. Walkthrough 3</h1>
+
+<script>
+    "use strict";
+
+    var customer = "Joe";
+
+    (function (){
+        console.log("The name of the customer inside the function is "  + customer);
+
+          if (2 > 1) {
+         var customer = "Mary";
+         }
+
+    })();
+
+    console.log("The name of the customer outside the function is "  + customer);
+</script>
+
+</body>
+</html>

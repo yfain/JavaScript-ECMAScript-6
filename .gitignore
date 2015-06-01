@@ -1,0 +1,14 @@
+.preview*
+.bundle/
+out/
+.DS_Store
+
+*.key
+
+handouts
+
+
+### Bower ###
+bower_components
+
+
