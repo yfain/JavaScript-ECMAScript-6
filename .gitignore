@@ -4,9 +4,13 @@ out/
 .DS_Store
 
 *.key
+*.pkg
+*.exe
 
-handouts
+dist
 
+### NPM installs  ###
+node_modules
 
 ### Bower ###
 bower_components

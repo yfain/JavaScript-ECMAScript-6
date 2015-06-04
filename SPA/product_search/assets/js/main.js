@@ -61,7 +61,4 @@
        return false;
     });
 
-     var customer=JSON.parse('{"fname":"Alex","lname":"Smith"}');
-
-     console.log(“Your name is ” + customer.fname + “ “ + customer.lname);
 });

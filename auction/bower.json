@@ -1,0 +1,25 @@
+{
+  "name": "auction",
+  "version": "0.1.0",
+  "authors": [
+    "Yakov Fain <yakovfain@gmail.com>"
+  ],
+  "description": "Online Auction",
+  "main": "index.html",
+  "keywords": [
+    "workshop"
+  ],
+  "license": "MIT",
+  "homepage": "yakovfain.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "handlebars": "~3.0.3"
+  }
+}
