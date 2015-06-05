@@ -16,7 +16,7 @@ module.exports = function(grunt){
          },
          output: ['dist']
        },
-
+   // minimize css files
        cssmin: {
            dist: {
                files: [{
@@ -27,7 +27,7 @@ module.exports = function(grunt){
                }]
            }
        },
-
+   // minimize JavaScript files
        uglify: {
            dist: {
                files: [{
@@ -38,7 +38,7 @@ module.exports = function(grunt){
                }]
            }
        },
-
+   // copy files to dist dir
        copy: {
          dist:{
              files: [{
@@ -61,7 +61,7 @@ module.exports = function(grunt){
          }
 
        },
-
+   // minimize images
        imagemin:{
            dist:{
                files: [{
@@ -72,7 +72,7 @@ module.exports = function(grunt){
                }]
            }
        },
-
+   // minimize html
        htmlmin: {
            dist: {
                options: {
@@ -94,7 +94,7 @@ module.exports = function(grunt){
 
    });
 
-
+   // a default task
     grunt.registerTask('default', ['clean', 'cssmin', 'uglify', 'copy', 'imagemin', 'htmlmin']);
 
 };
